@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundMUSIC Audifonos</title>
+    <link rel="shortcut icon" href="img/auriculares.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Header-->
+    <header class="header">
+        <div class="contenedor contenido__header">
+            <div class="imagen__header">
+                <picture>
+                    <source
+                        sizes="1920w"
+                        srcset="img/header.avif 1920w"
+                        type="image/avif">
+                    <source
+                        sizes="1920w"
+                        srcset="img/header.webp 1920w"
+                        type="image/webp">
+                    <source
+                        sizes="1920w"
+                        srcset="img/header.jpg 1920w"
+                        type="image/jpg">
+                    <img loading="lazy" decoding="async" src="img/header.png" lazyalt="imagen" width="1000" height="600">
+                </picture>
+            </div> <!--.imagen-hader-->
+            <div class="texto__header">
+                <p class="tagline__producto">Sonido Profesional</p>
+                <h1 class="nombre__produto degradado__verde">Sound MUSIC</h1>
+                <p class="descripcion__producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id adipisci ad hic dolor optio, sint consectetur vitae voluptate molestiae excepturi?</p>
+                <p class="precio__producto">Desde <span>$199</span></p>
+            </div>
+        </div>
+    </header>
+
+    <!--Section iconos-->
+    <section class="contenedor">
+        <div class="iconos">
+            <div class="icono">
+                <img src="img/icono-sonido.svg" alt="Imagen icono">
+                <h2>Gran sonido</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facilis beatae accusamus ut mollitia ad veniam dolore aut, ea rerum?</p>
+            </div>
+            <div class="icono">
+                <img src="img/icono-garantia.svg" alt="Imagen icono">
+                <h2>Garantía de por vida</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facilis beatae accusamus ut mollitia ad veniam dolore aut, ea rerum?</p>
+            </div>
+            <div class="icono">
+                <img src="img/icono-bateria.svg" alt="Imagen icono">
+                <h2>+20 Horas de Batería</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facilis beatae accusamus ut mollitia ad veniam dolore aut, ea rerum?</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Sobre Music Sound-->
+    <section class="sobre__musicsound">
+        <div class="contenedor sobre__musicsound__grid">
+            <div class="texto__sobre__musicsound">
+                <h2>Sobre los <span>Sound MUSIC</span></h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis voluptas exercitationem aliquid quae culpa cupiditate et, vero tempore praesentium nobis nam consequuntur quisquam architecto beatae nihil doloremque facilis! Culpa, cumque.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contenedor main Modelos -->
+    <main class="contenedor modelos">
+        <h2 class="tex__center degradado__verde header__modelos">Eligue tus Audífonos Sound <span class="sound">Music<span></h2>
+        <div class="listado__modelos">
+            <div class="modelo modelo-x">
+                <h3> Sound <span class="sound">Music</span></h3>
+                <p class="precio">$199</p>
+            </div>
+            <div class="modelo modelo-y">
+                <h3> Sound <span class="sound">Music</span></h3>
+                <p class="precio">$299</p>
+            </div>
+            <div class="modelo modelo-z">
+                <h3> Sound <span class="sound">Music</span></h3>
+                <p class="precio">$499</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Newsletter -->
+    <section class="newletter">
+        <div class="contenido__newsletter contenedor">
+            <div class="texto__newslletter">
+                <h2>Recibe actualizaciones</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quidem laborum similique. Quis, eos dolor pariatur necessitatibus error qui praesentium!</p>
+
+                <form action="formulario">
+                    <div class="input">
+                        <input class="input_email" type="text" placeholder="Tu Email">
+                    </div>
+                    <input class="btn__suscribirme" type="submit" value="Inscribirme">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy; RobertMarchino</p>
+    </footer>
+
+
+    <script src="js/imagenes.js"></script>
+</body>
+</html>
